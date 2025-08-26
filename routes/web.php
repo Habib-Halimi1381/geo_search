@@ -33,7 +33,7 @@ Route::get('contact',[ContactController::class, 'index'])->name('contact');
 // departments part
 Route::get('departments',[DepartmentsController::class, 'index'])->name('departments');
 
-// appintment part
+// appointment parts
 Route::get('appointment',[AppointmentController::class, 'index'])->name('appointment');
 
 // projects part
